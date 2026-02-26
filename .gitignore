@@ -27,3 +27,8 @@ data/**/*
 
 # Generated outputs (do not commit)
 data/example_output/
+
+# Allow committing the small example input data
+!data/
+!data/example_input/
+!data/example_input/**
