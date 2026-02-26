@@ -25,6 +25,12 @@ Create a virtual environment, install dependencies, and run the example pipeline
 
 Outputs (plots and small files) are written to `data/example_output/` (kept small by design).
 
+## Example output
+
+Example strain plot (computed from the included `rpsi4_real_*.txt` / `rpsi4_imag_*.txt` data and saved for quick inspection):
+
+![Example strain](docs/figures/example_strain_r0050_l2m2.png)
+
 ## What is included / excluded
 
 Included:
