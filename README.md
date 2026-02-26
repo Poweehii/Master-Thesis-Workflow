@@ -53,3 +53,12 @@ Excluded:
 ## Notes
 
 This repo is a *workflow artifact*, not a full AthenaK fork. The AthenaK source code is not mirrored here; only the job scripts and post-processing pipeline are version-controlled.
+
+## Attribution
+
+The strain post-processing script `analysis/ffi/waveforms.py` is adapted from the AthenaK tutorial workflow for GW150914:
+
+- https://github.com/dradice/athenak-tutorial-gw150914/tree/main
+
+This repository focuses on packaging and documenting the end-to-end workflow used in my thesis work (inputs, execution, reproducible demo data/figures, and Mahti Slurm scripts).
+
