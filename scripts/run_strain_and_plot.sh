@@ -11,7 +11,6 @@ set -euo pipefail
 WAVEFORM_DIR="${1:-data/example_input/waveforms}"
 OUTDIR="${2:-}"
 
-# ======= same knobs as your original script =======
 RADIUS="${RADIUS:-r0050}"
 L="${L:-2}"
 M="${M:-2}"
@@ -19,7 +18,6 @@ TMAX="${TMAX:-300}"
 # Optional:
 # export TMIN=0
 TMIN="${TMIN:-}"
-# ================================================
 
 # 1) Compute strain (creates/updates WAVEFORM_DIR/strain.h5) using waveforms.py defaults
 python3 analysis/ffi/waveforms.py "$WAVEFORM_DIR" --verbose
