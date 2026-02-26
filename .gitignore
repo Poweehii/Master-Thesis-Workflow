@@ -24,3 +24,6 @@ data/**/*
 *.png
 *.pdf
 !docs/figures/**
+
+# Generated outputs (do not commit)
+data/example_output/
