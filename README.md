@@ -1,4 +1,4 @@
-# Numerical-Relativity Workflow: \Psi_4 \rightarrow h(t) via Fixed-Frequency Integration (FFI)
+# Numerical-Relativity Workflow: Ψ₄ → h(t) via Fixed-Frequency Integration (FFI)
 
 This repository documents a reproducible workflow used in my Master's thesis work on numerical-relativity simulations with **AthenaK**:
 1) running jobs on the **Mahti** supercomputer (Slurm job scripts), and
