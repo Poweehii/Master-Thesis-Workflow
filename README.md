@@ -25,10 +25,6 @@ Create a virtual environment, install dependencies, and run the example pipeline
 
 Outputs (plots and small files) are written to `data/example_output/` (kept small by design).
 
-## Example output
-
-
-
 ## Running on Mahti (Slurm)
 
 The Slurm job scripts used for the Mahti supercomputer are in `hpc/mahti/`:
@@ -36,6 +32,8 @@ The Slurm job scripts used for the Mahti supercomputer are in `hpc/mahti/`:
 - `hpc/mahti/job_gpu.slurm`
 
 See `hpc/mahti/README.md` for usage notes.
+
+## Example output
 
 Example strain plot (computed from the included `rpsi4_real_*.txt` / `rpsi4_imag_*.txt` data and saved for quick inspection):
 
