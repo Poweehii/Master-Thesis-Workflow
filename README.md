@@ -27,6 +27,16 @@ Outputs (plots and small files) are written to `data/example_output/` (kept smal
 
 ## Example output
 
+
+
+## Running on Mahti (Slurm)
+
+The Slurm job scripts used for the Mahti supercomputer are in `hpc/mahti/`:
+- `hpc/mahti/job_cpu.slurm`
+- `hpc/mahti/job_gpu.slurm`
+
+See `hpc/mahti/README.md` for usage notes.
+
 Example strain plot (computed from the included `rpsi4_real_*.txt` / `rpsi4_imag_*.txt` data and saved for quick inspection):
 
 ![Example strain](docs/figures/example_strain_r0050_l2m2.png)
