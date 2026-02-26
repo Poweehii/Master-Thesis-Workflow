@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this workflow or code, please cite it."
+title: "Master Thesis Workflow: Psi4 to Strain via Fixed-Frequency Integration (FFI) + Mahti Slurm Scripts"
+type: software
+authors:
+  - family-names: "Blaufuss"
+    given-names: "Pia Elisabeth"
+version: 0.1.0
+date-released: 2026-02-26
+repository-code: "https://github.com/Poweehii/Master-Thesis-Workflow"
+license: "MIT"
+keywords:
+  - numerical relativity
+  - gravitational waves
+  - fixed-frequency integration
+  - AthenaK
+  - Slurm
