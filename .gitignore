@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / outputs
+data/**/*
+!data/example_input/**
+!data/example_output/**
+*.h5
+*.hdf5
+*.bin
+*.dat
+*.vtk
+*.npy
+*.npz
+
+# Plots (keep only curated ones in docs/figures)
+*.png
+*.pdf
+!docs/figures/**
